@@ -1,0 +1,306 @@
+body {
+    margin-top: 0px;
+    top: 0px;
+    background-color: #9B5F74;
+}
+
+h1 {
+    font-family: "Acme", sans-serif;
+    padding: 12px;
+    background-color: white;
+    mix-blend-mode: screen;
+    border-radius: 7px;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    background-color: #5F9B86;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 3;
+
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 200px;
+    margin-left: -200px;
+    margin-right: 30px;
+}
+
+/*--------------------------------------------INTRODUCCION-----------------------------------*/
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0px 20px 40px;
+
+}
+
+.objetivos {
+    max-width: 800px;
+    font-family: "Dosis", sans-serif;
+    border-top: 3px solid black;
+    padding: 10px;
+    color: white;
+}
+
+.objetivos h3 {
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+.objetivos img {
+    width: 100%;
+    filter: drop-shadow(8px -6px 5px #000000);
+    -webkit-filter: drop-shadow(8px -6px 5px #000000);
+    -moz-filter: drop-shadow(8px -6px 5px #000000);
+    z-index: 1;
+}
+
+
+#informacion {
+    margin-left: 100px;
+    height: 100px;
+    background: #5f9b86;
+    background: linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -webkit-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -moz-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    box-shadow: 0px 0px 28px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 28px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 28px 4px rgba(0, 0, 0, 0.75);
+    border-radius: 43px 43px 43px 43px;
+    -webkit-border-radius: 43px 43px 43px 43px;
+    -moz-border-radius: 43px 43px 43px 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+#informacion:hover {
+    height: 200px;
+}
+
+#informacion:hover p {
+    opacity: 1;
+
+}
+
+#informacion h2 {
+    font-family: "Dosis", sans-serif;
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#informacion p {
+    margin-top: -10px;
+    color: white;
+    opacity: 0;
+    transition: all 1s ease;
+    font-family: "Dosis", sans-serif;
+    padding: 10px;
+}
+
+/*-----------------------------------------CONTENEDOR 2--------------------------------------------------*/
+#contenedor2 {
+    max-width: 1150px;
+    margin-left: 45px;
+}
+
+#actividades {
+    width: 100%;
+    height: 400px;
+    border: 3px solid black;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+#actividades:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+}
+
+#contenedor2 h3 {
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 40px;
+    color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+#subcontenedor{
+    display: flex;
+    flex-direction: row;
+}
+#subcontenedor a{
+    text-decoration: none;
+}
+
+
+#muestra:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+}
+
+#muestra{
+    width: 385px;
+    height: 400px;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+}
+
+
+#muestra2{
+    width: 385px;
+    height: 400px;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+}
+
+#muestra2:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+}
+
+#muestra3{
+    width: 380px;
+    height: 400px;
+    transition: all 0.5s ease;
+}
+
+#muestra3:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px 20px rgba(0,0,0,0.75);
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*------------------------------------CONTACTO----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+
+#fotocabc{
+    margin-left: -200px;
+    margin-top: 5px;
+}
+
+#esp{
+    margin-left: -40px;
+}
+
+.contactanos {
+    margin: 50px auto 0px auto;
+    max-width: 800px;
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    background: #5f9b86;
+    background: linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -webkit-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    background: -moz-linear-gradient(216deg, #5f9b86 0%, #5f718c 80%);
+    box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.75);
+}
+
+.contactanos h3 {
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+#acercarte {
+    width: 40%;
+    border-right: 3px solid black;
+}
+
+#redes {
+    width: 60%;
+}
+
+.contactanos a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+
+.contactanos a:hover {
+    border: 1px solid black;
+}
+
+#redes p {
+    margin-top: 0px;
+    color: #7a7a7a;
+}
+
+#redes p:hover {
+    cursor: not-allowed;
+}
+
+#nombreredes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+#acercarte {
+    text-align: center;
+}
+
+#comentarios {
+    margin-top: 140px;
+    display: block;
+}
+
+#comentarios label,
+#comentarios textarea {
+    color: #5F9B86;
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#comentarios textarea {
+    color: black;
+    width: 400px;
+    font-size: 15px;
+}
+
+#nombreredes #mail{
+    color: black;
+}
+
+#nombreredes #mail:hover{
+    cursor: default;
+}
+
+#btnenv{
+    margin-left: 30px;
+    display: flex;
+    margin-top: -20px;
+}
+
+a{
+    text-decoration: none;
+}
